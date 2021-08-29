@@ -29,10 +29,10 @@
 			</div>
 			<nav class="header__menu menu">
 					<ul class="menu__list">
-						<li><a href="#trand" class="menu__link">Цены на газон </a></li>
-						<li><a href="#tags" class="menu__link">Тарифы на укладку </a></li>
-						<li><a href="#algorithm" class="menu__link">Наши работы</a></li>
-						<li><a href="#motivation" class="menu__link">Контакты</a></li>
+						<li><a href="#price" class="menu__link">Цены на газон </a></li>
+						<li><a href="#tarifs" class="menu__link">Тарифы на укладку </a></li>
+						<li><a href="#works" class="menu__link">Наши работы</a></li>
+						<li><a href="#call" class="menu__link">Контакты</a></li>
 					</ul>
 			</nav>
 			<a href="tel:+375445739739" class="header__phone">
@@ -42,7 +42,7 @@
 		</div>
 	</div>
 </header>		<main>
-			<section class="first">
+			<section class="first" id="first">
 				<div class="container container__first">
 					<div class="first__wrapper">
 						<h1 class="first__title title title_w">
@@ -57,7 +57,7 @@
 					<a href="#" class="first__arrow"></a>
 				</div>
 			</section>
-			<section class="works">
+			<section class="works" id="works">
 				<div class="container">
 					<h2 class="works__title title">Наши работы</h2>
 				</div>
@@ -137,7 +137,7 @@
 				  </div>
 				</div>
 			</section>
-			<section class="we">
+			<section class="we" id="we">
 				<div class="container">
 					<h2 class="we__title title title_w">
 						Почему стоит выбрать нас
@@ -181,7 +181,7 @@
 						</div>
 				</div>
 			</section>
-			<section class="price">
+			<section class="price" id="price">
 				<div class="container">
 					<h2 class="price__title title ">
 						ЦЕны на газон
@@ -336,18 +336,18 @@
 
 										</div>
 										<div class="price__star text">
-											
+										
 										</div>
-										<a href="#" class="price__btn btn">заказать</a>
+										
 									</div>
-									
+									<a href="#" class="price__btn btn">заказать</a>
 								</div>
 							</div>
 						</div>
 				</div>
 			</section>
 
-			<section class="advantages">
+			<section class="advantages" id="advantages">
 				<div class="container">
 					<h2 class="advantages__title title title_w">
 						наши преимущества
@@ -392,7 +392,7 @@
 				</div>
 			</section>
 
-			<section class="tarifs">
+			<section class="tarifs" id="tarifs">
 				<div class="container">
 					<h2 class="tarifs__title title ">
 						Тарифы на укладку
@@ -503,7 +503,7 @@
 			</section>
 
 
-			<section class="stages">
+			<section class="stages" id="stages">
 				<div class="container">
 					<h2 class="stages__title title title_w">
 						Этапы работы
@@ -548,9 +548,49 @@
 				</div>
 			</section>
 
+			<section class="about" id="about">
+				<div class="container">
+					<h2 class="about__title title">
+						Расскажем о нас
+					</h2>
+					<div class="about__wrapper">
+						<div class="about__text text">
+							<p>Наша компания была создана в 2021 году для оказания помощи в  озеленении наших городов, а также Ваших участков. В нашей команде собрались молодые и амбициозные ребята, которые поставили  целью преукрасить окружающий мир.</p>
+							<p>За время работы наши клиенты оставили уже не мало положительных отзывов, ведь к каждому из них мы относились как к близкому другу. Мы поставили радость в глазах клиента от увиденного результата нашей работы на первое место и всегда будем придерживаться этого принципа.</p>
+							<p>Наша команда это не просто сотрудники, а настоящая семья, которая проводит совместно время не только на работе, но и вместе отдыхает, а это позволяет нам идти на работу с радостью и выполнять данную работу намного лучше и качественне, чем наши конкуренты.</p>
+							<p>Мы счастливы, когда Вы довольны.</p>
+						</div>
+						<div class="about_digits">
+							<div class="about__card">
+								<div class="about__digit title">
+									37
+								</div>
+								<div class="about__under text">исполненных заказов</div>
+							</div>
+							<div class="about__card">
+								<div class="about__digit title">
+									125 000 м2
+								</div>
+								<div class="about__under text">уложенного газона</div>
+							</div>
+							<div class="about__card">
+								<div class="about__digit title">
+									40 000 м2
+								</div>
+								<div class="about__under text">самый большой заказ</div>
+							</div>
+							<div class="about__card">
+								<div class="about__digit title">
+									7
+								</div>
+								<div class="about__under text">городов, которые мы озеленили</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-
-			<section class="care">
+			<section class="care" id="care">
 				<div class="container">
 					<h2 class="care__title title title_w">
 						Дополнительный уход
@@ -617,11 +657,133 @@
 						</div>
 				</div>
 			</section>
+
+			<section class="call" id="call">
+				<div class="container">
+					<h2 class="call__title title">
+						свяжитесь с нами
+					</h2>
+					<div class="call__wrapper">
+						<form action="#" class="call__form">
+							<div class="call__form__title title">
+								Заполните, чтобы наши специалисты связались с Вами
+							</div>
+							<input type="text" class="call__input" placeholder="Имя">
+							<input type="text" class="call__input" placeholder="Телефон">
+							<input type="text" class="call__input" placeholder="E-mail">
+							<textarea name="" id="" cols="30" rows="10" class="call__input">Ваш вопрос или коментарий</textarea>
+							<button type="submit" class="call__btn btn">Отправить</button>
+							<p class="call__form__text text">*Нажимая кнопку отправить «Отправить», Вы соглашаетесь на обработку данных. Данные не передаются третим лицам.</p>
+						</form>
+						<div class="call__socials socials">
+							<div class="socials__wrapper">
+								<div class="socials__title title">
+									контакты
+								</div>
+								<div class="socials__cards">
+									<div class="socials__cards__card">
+										<div class="socials__cards__img">
+											<img src="img/icons/contact1.svg" alt="">
+                                		</div>
+
+                                		<a href="tel:+375445739739">+37544 5 739 739</a>
+                            		</div>
+                            		<div class="socials__cards__card">
+										<div class="socials__cards__img">
+											<img src="img/icons/contact2.svg" alt="">
+                                		</div>
+
+                                		<a href="mailto:info@lawns.by">info@lawns.by</a>
+                            		</div>
+                            		<div class="socials__cards__card">
+										<div class="socials__cards__img">
+											<img src="img/icons/contact3.svg" alt="">
+                                		</div>
+
+                                		<a href="https://www.instagram.com/lawns.by">@lawns.by</a>
+                            		</div>
+								</div>
+								<div class="socials__address">
+									<div class="socials__cards__card">
+										<div class="socials__cards__img">
+											<img src="img/icons/contact4.svg" alt="">
+                                		</div>
+                         				<p class="socials__text text">г. Брест, ул. Свободы, д. 18, оф.61</p>
+                            		</div>
+								</div>
+								<div class="socials__time time">
+									<div class="socials__cards__img">
+										<img src="img/icons/contact5.svg" alt="">
+                            		</div>
+                            		<div class="time__wrapper">
+                            			<div class="time__days">
+                            				<p class="text">Время работы:</p>
+                            				<p class="text">Понедельник - Пятница</p>
+                            				<p class="text">Суббота - Воскресенье</p>
+                            			</div>
+                            			<div class="time__hours">
+                            				<p class="text">08.00 - 19.00</p>
+                            				<p class="text">Выходной</p>
+                            				
+                            			</div>
+                            		</div>
+								</div>
+							</div>
+							<div class="socials__pic">
+								<img src="img/icons/trimmer.svg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
-<footer>
+<footer class="footer">
 	<div class='container'>
-		<div class="footer-body">
-			
+		<div class="footer__body">
+			<div class="footer__wrap">
+				<div class="footer_logo">
+					<img src="img/icons/logo.svg" alt="">
+				</div>
+				<p class="footer__text text">
+					ЧУП «Приусадебные технологии»
+				</p>
+				<p class="footer__text text">
+					Брест, 2021 год
+				</p>
+				<p class="footer__text text">
+					© Все права защищены
+				</p>
+			</div>
+		
+			<nav class="footer__menu menu">
+				<ul class="menu__list">
+					<li><a href="#price" class="menu__link">Цены на газон </a></li>
+					<li><a href="#tarifs" class="menu__link">Тарифы на укладку </a></li>
+					<li><a href="#works" class="menu__link">Наши работы</a></li>
+					<li><a href="#call" class="menu__link">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="footer__socials socials">
+				<div class="socials__cards">
+					<div class="socials__cards__card socials__cards__card_w">
+						<div class="socials__cards__img">
+							<img src="img/icons/footer_mail.svg" alt="">
+	            		</div>
+
+	            		<a href="mailto:info@lawns.by">info@lawns.by</a>
+	        		</div>
+					<div class="socials__cards__card socials__cards__card_w">
+						<div class="socials__cards__img">
+							<img src="img/icons/footer_phone.svg" alt="">
+	            		</div>
+	            		<a href="tel:+375445739739">+37544 5 739 739</a>
+	        		</div>
+				</div>
+				<a href="#" class="footer__btn btn btn_w">заказать звонок</a>
+			</div>
+			<a href="#first" class="footer__arrow_up" id="button_up">
+				<img src="img/icons/button_up.svg" alt="">
+			</a>
 		</div>
 	</div>
 </footer>	</div>
